@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/opensans.woff2'), url('fonts/opensans.woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/opensanslight.woff2'), url('fonts/opensanslight.woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  src: url('fonts/ptsans.woff2'), url('fonts/ptsans.woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nexa';
+  src: url('fonts/nexalight.woff2'), url('fonts/nexalight.woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+html {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-size: 24px;
+}
+
+body {
+  margin: 0;
+}

@@ -1,0 +1,24 @@
+.scroll-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1.8rem;
+}
+
+.light {
+  color: #f1f1f1;
+}
+
+.dark {
+  color: #bebebe;
+}
+
+.text {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.07rem;
+}
+
+.icon {
+  font-size: 1.8rem;
+}
