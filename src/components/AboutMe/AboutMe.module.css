@@ -1,0 +1,82 @@
+.about-me {
+  background: #fff;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  margin: 3.3rem auto 2.5rem -3.5rem;
+}
+
+.photo {
+  background: url(photo.png) center no-repeat;
+  width: 32rem;
+  height: 29rem;
+  margin: 0 1.1rem;
+}
+
+.text-content {
+  max-width: 28.4rem;
+  margin: 0.7rem 1.1rem 0;
+}
+
+.heading {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 2.5rem;
+  letter-spacing: 0.25rem;
+}
+
+.text {
+  word-spacing: 0.1rem;
+  letter-spacing: 0.012rem;
+  line-height: 2.1;
+  font-weight: 300;
+}
+
+.name {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 1700px) {
+  .content {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 1300px) {
+  .content {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .photo {
+    margin: 0;
+  }
+
+  .content {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 410px) {
+  .heading {
+    font-size: 1.25rem;
+  }
+
+  .text, .name {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .scroll-message {
+    display: none;
+  }
+
+  .last-paragraph {
+    display: none;
+  }
+}

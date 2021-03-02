@@ -52,12 +52,14 @@ function Menu(props) {
   }
 
   return (
-    <nav className={`${classes.menu} ${classes[props.color]}`}>
-      <a className={classes.link} href='#'>home</a>
-      <a className={classes.link} href='#'>about me</a>
-      <a className={classes.link} href='#'>portfolio</a>
-      <a className={classes.link} href='#'>contact</a>
-    </nav>
+    <div className={classes.container}>
+      <nav className={`${classes.menu} ${classes[props.color]}`}>
+        <a className={classes.link} href='#'>home</a>
+        <a className={classes.link} href='#'>about me</a>
+        <a className={classes.link} href='#'>portfolio</a>
+        <a className={classes.link} href='#'>contact</a>
+      </nav>
+    </div>
   );
 }
 

@@ -8,8 +8,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-top: 1.5rem;
-  padding-bottom: 1.4rem;
+  padding: 1rem 0;
   border-bottom: 1px solid;
   width: 93%;
 }
@@ -41,7 +40,8 @@
   width: 100vw;
   height: 100vh;
   overflow-y: auto;
-  position: absolute;
+  position: fixed;
+  padding: 0.5rem;
 }
 
 .mobile-link {
